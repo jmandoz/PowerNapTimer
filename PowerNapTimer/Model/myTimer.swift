@@ -43,6 +43,7 @@ class MyTimer: NSObject {
         } else {
             timer?.invalidate()
             self.timeRemaining = nil
+            delegate?.timerCompleted()
             print(timeRemaining)
         }
     }
