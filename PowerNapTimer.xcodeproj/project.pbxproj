@@ -12,6 +12,7 @@
 		A4C9CA2022B947BB006E785F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4C9CA1E22B947BB006E785F /* Main.storyboard */; };
 		A4C9CA2222B947BD006E785F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4C9CA2122B947BD006E785F /* Assets.xcassets */; };
 		A4C9CA2522B947BD006E785F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4C9CA2322B947BD006E785F /* LaunchScreen.storyboard */; };
+		A4C9CA3022B94F21006E785F /* myTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C9CA2F22B94F21006E785F /* myTimer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		A4C9CA2122B947BD006E785F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4C9CA2422B947BD006E785F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4C9CA2622B947BD006E785F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4C9CA2F22B94F21006E785F /* myTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myTimer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				A4C9CA2C22B94D38006E785F /* Resources */,
 				A4C9CA2E22B94D52006E785F /* View */,
 				A4C9CA2D22B94D49006E785F /* ViewController */,
+				A4C9CA3122B94F2B006E785F /* Model */,
 			);
 			path = PowerNapTimer;
 			sourceTree = "<group>";
@@ -86,6 +89,14 @@
 				A4C9CA1E22B947BB006E785F /* Main.storyboard */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		A4C9CA3122B94F2B006E785F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A4C9CA2F22B94F21006E785F /* myTimer.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +172,7 @@
 			files = (
 				A4C9CA1D22B947BB006E785F /* ViewController.swift in Sources */,
 				A4C9CA1B22B947BB006E785F /* AppDelegate.swift in Sources */,
+				A4C9CA3022B94F21006E785F /* myTimer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
